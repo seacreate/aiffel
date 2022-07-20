@@ -1,0 +1,11 @@
+on:
+  workflow_dispatch:
+    inputs:
+      username:
+      description:
+      required: true
+    reason:
+      description: 안녕하세요. 여러분ㅎㅎ 오늘 기분은 어떠신가요?
+      required:
+      default: soso
+      
