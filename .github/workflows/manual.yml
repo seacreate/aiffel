@@ -6,6 +6,15 @@ on:
         required: true
       reason:
         description: 안녕하세요. 여러분ㅎㅎ 오늘 기분은 어떠신가요?
-        required:
+        required: true
         default: soso
       
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      - name: test
+        run: >
+          echo its_test
