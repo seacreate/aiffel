@@ -40,3 +40,6 @@ jobs:
           echo test, and deploy your project.
           echo $HI
           echo $USER
+          echo $HI > hi.txt
+          echo $USER >> hi.txt
+          cat hi.txt
