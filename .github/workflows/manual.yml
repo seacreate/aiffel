@@ -2,10 +2,10 @@ on:
   workflow_dispatch:
     inputs:
       username:
-      description: 이름을 쳐주세요.
-      required: true
-    reason:
-      description: 안녕하세요. 여러분ㅎㅎ 오늘 기분은 어떠신가요?
-      required:
-      default: soso
+        description: 이름을 쳐주세요.
+        required: true
+      reason:
+        description: 안녕하세요. 여러분ㅎㅎ 오늘 기분은 어떠신가요?
+        required:
+        default: soso
       
